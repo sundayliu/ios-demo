@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98C006A5164D3DEB008C7B21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C006A4164D3DEB008C7B21 /* UIKit.framework */; };
+		98C006A7164D3DEB008C7B21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C006A6164D3DEB008C7B21 /* Foundation.framework */; };
+		98C006A9164D3DEB008C7B21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C006A8164D3DEB008C7B21 /* CoreGraphics.framework */; };
+		98C006AF164D3DEB008C7B21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98C006AD164D3DEB008C7B21 /* InfoPlist.strings */; };
+		98C006B1164D3DEB008C7B21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C006B0164D3DEB008C7B21 /* main.m */; };
+		98C006B5164D3DEB008C7B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C006B4164D3DEB008C7B21 /* AppDelegate.m */; };
+		98C006B7164D3DEB008C7B21 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C006B6164D3DEB008C7B21 /* Default.png */; };
+		98C006B9164D3DEB008C7B21 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C006B8164D3DEB008C7B21 /* Default@2x.png */; };
+		98C006BB164D3DEB008C7B21 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C006BA164D3DEB008C7B21 /* Default-568h@2x.png */; };
+		98C006BE164D3DEB008C7B21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C006BD164D3DEB008C7B21 /* ViewController.m */; };
+		98C006C1164D3DEB008C7B21 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98C006BF164D3DEB008C7B21 /* ViewController_iPhone.xib */; };
+		98C006C4164D3DEB008C7B21 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98C006C2164D3DEB008C7B21 /* ViewController_iPad.xib */; };
+		98C006CB164D3EC4008C7B21 /* IG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C006CA164D3EC4008C7B21 /* IG.framework */; };
+		98C006F1164D464F008C7B21 /* thumb1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006D7164D464F008C7B21 /* thumb1.jpeg */; };
+		98C006F2164D464F008C7B21 /* thumb10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006D8164D464F008C7B21 /* thumb10.jpeg */; };
+		98C006F3164D464F008C7B21 /* thumb11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006D9164D464F008C7B21 /* thumb11.jpeg */; };
+		98C006F4164D464F008C7B21 /* thumb12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006DA164D464F008C7B21 /* thumb12.jpeg */; };
+		98C006F5164D464F008C7B21 /* thumb13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006DB164D464F008C7B21 /* thumb13.jpeg */; };
+		98C006F6164D464F008C7B21 /* thumb14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006DC164D464F008C7B21 /* thumb14.jpeg */; };
+		98C006F7164D464F008C7B21 /* thumb15.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006DD164D464F008C7B21 /* thumb15.jpeg */; };
+		98C006F8164D464F008C7B21 /* thumb16.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006DE164D464F008C7B21 /* thumb16.jpeg */; };
+		98C006F9164D464F008C7B21 /* thumb17.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006DF164D464F008C7B21 /* thumb17.jpeg */; };
+		98C006FA164D464F008C7B21 /* thumb18.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006E0164D464F008C7B21 /* thumb18.jpeg */; };
+		98C006FB164D464F008C7B21 /* thumb19.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006E1164D464F008C7B21 /* thumb19.jpeg */; };
+		98C006FC164D464F008C7B21 /* thumb2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006E2164D464F008C7B21 /* thumb2.jpeg */; };
+		98C006FD164D464F008C7B21 /* thumb20.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006E3164D464F008C7B21 /* thumb20.jpeg */; };
+		98C006FE164D464F008C7B21 /* thumb21.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006E4164D464F008C7B21 /* thumb21.jpeg */; };
+		98C006FF164D464F008C7B21 /* thumb22.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006E5164D464F008C7B21 /* thumb22.jpeg */; };
+		98C00700164D464F008C7B21 /* thumb23.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006E6164D464F008C7B21 /* thumb23.jpeg */; };
+		98C00701164D464F008C7B21 /* thumb24.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006E7164D464F008C7B21 /* thumb24.jpeg */; };
+		98C00702164D464F008C7B21 /* thumb25.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006E8164D464F008C7B21 /* thumb25.jpeg */; };
+		98C00703164D464F008C7B21 /* thumb26.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006E9164D464F008C7B21 /* thumb26.jpeg */; };
+		98C00704164D464F008C7B21 /* thumb3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006EA164D464F008C7B21 /* thumb3.jpeg */; };
+		98C00705164D464F008C7B21 /* thumb4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006EB164D464F008C7B21 /* thumb4.jpeg */; };
+		98C00706164D464F008C7B21 /* thumb5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006EC164D464F008C7B21 /* thumb5.jpeg */; };
+		98C00707164D464F008C7B21 /* thumb6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006ED164D464F008C7B21 /* thumb6.jpeg */; };
+		98C00708164D464F008C7B21 /* thumb7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006EE164D464F008C7B21 /* thumb7.jpeg */; };
+		98C00709164D464F008C7B21 /* thumb8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006EF164D464F008C7B21 /* thumb8.jpeg */; };
+		98C0070A164D464F008C7B21 /* thumb9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C006F0164D464F008C7B21 /* thumb9.jpeg */; };
+		98C0070C164D4693008C7B21 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C0070B164D4692008C7B21 /* QuartzCore.framework */; };
+		98C00713164D4964008C7B21 /* Bookcase_Universal.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C0070E164D4964008C7B21 /* Bookcase_Universal.png */; };
+		98C00714164D4964008C7B21 /* Bookcase_Universal_TOP.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C0070F164D4964008C7B21 /* Bookcase_Universal_TOP.png */; };
+		98C00715164D4964008C7B21 /* Bookcase_Universal_TopShelf.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C00710164D4964008C7B21 /* Bookcase_Universal_TopShelf.png */; };
+		98C00716164D4964008C7B21 /* Bookcase_Universal_toptall.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C00711164D4964008C7B21 /* Bookcase_Universal_toptall.png */; };
+		98C00717164D4964008C7B21 /* Bookcase_Universal_white_withBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C00712164D4964008C7B21 /* Bookcase_Universal_white_withBG.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98C006A0164D3DEB008C7B21 /* Bookshelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookshelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C006A4164D3DEB008C7B21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98C006A6164D3DEB008C7B21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98C006A8164D3DEB008C7B21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98C006AC164D3DEB008C7B21 /* Bookshelf-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bookshelf-Info.plist"; sourceTree = "<group>"; };
+		98C006AE164D3DEB008C7B21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98C006B0164D3DEB008C7B21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98C006B2164D3DEB008C7B21 /* Bookshelf-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bookshelf-Prefix.pch"; sourceTree = "<group>"; };
+		98C006B3164D3DEB008C7B21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98C006B4164D3DEB008C7B21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98C006B6164D3DEB008C7B21 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		98C006B8164D3DEB008C7B21 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		98C006BA164D3DEB008C7B21 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		98C006BC164D3DEB008C7B21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98C006BD164D3DEB008C7B21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98C006C0164D3DEB008C7B21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		98C006C3164D3DEB008C7B21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		98C006CA164D3EC4008C7B21 /* IG.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IG.framework; path = Library/Frameworks/IG.framework; sourceTree = DEVELOPER_DIR; };
+		98C006D7164D464F008C7B21 /* thumb1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb1.jpeg; sourceTree = "<group>"; };
+		98C006D8164D464F008C7B21 /* thumb10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb10.jpeg; sourceTree = "<group>"; };
+		98C006D9164D464F008C7B21 /* thumb11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb11.jpeg; sourceTree = "<group>"; };
+		98C006DA164D464F008C7B21 /* thumb12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb12.jpeg; sourceTree = "<group>"; };
+		98C006DB164D464F008C7B21 /* thumb13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb13.jpeg; sourceTree = "<group>"; };
+		98C006DC164D464F008C7B21 /* thumb14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb14.jpeg; sourceTree = "<group>"; };
+		98C006DD164D464F008C7B21 /* thumb15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb15.jpeg; sourceTree = "<group>"; };
+		98C006DE164D464F008C7B21 /* thumb16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb16.jpeg; sourceTree = "<group>"; };
+		98C006DF164D464F008C7B21 /* thumb17.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb17.jpeg; sourceTree = "<group>"; };
+		98C006E0164D464F008C7B21 /* thumb18.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb18.jpeg; sourceTree = "<group>"; };
+		98C006E1164D464F008C7B21 /* thumb19.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb19.jpeg; sourceTree = "<group>"; };
+		98C006E2164D464F008C7B21 /* thumb2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb2.jpeg; sourceTree = "<group>"; };
+		98C006E3164D464F008C7B21 /* thumb20.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb20.jpeg; sourceTree = "<group>"; };
+		98C006E4164D464F008C7B21 /* thumb21.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb21.jpeg; sourceTree = "<group>"; };
+		98C006E5164D464F008C7B21 /* thumb22.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb22.jpeg; sourceTree = "<group>"; };
+		98C006E6164D464F008C7B21 /* thumb23.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb23.jpeg; sourceTree = "<group>"; };
+		98C006E7164D464F008C7B21 /* thumb24.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb24.jpeg; sourceTree = "<group>"; };
+		98C006E8164D464F008C7B21 /* thumb25.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb25.jpeg; sourceTree = "<group>"; };
+		98C006E9164D464F008C7B21 /* thumb26.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb26.jpeg; sourceTree = "<group>"; };
+		98C006EA164D464F008C7B21 /* thumb3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb3.jpeg; sourceTree = "<group>"; };
+		98C006EB164D464F008C7B21 /* thumb4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb4.jpeg; sourceTree = "<group>"; };
+		98C006EC164D464F008C7B21 /* thumb5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb5.jpeg; sourceTree = "<group>"; };
+		98C006ED164D464F008C7B21 /* thumb6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb6.jpeg; sourceTree = "<group>"; };
+		98C006EE164D464F008C7B21 /* thumb7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb7.jpeg; sourceTree = "<group>"; };
+		98C006EF164D464F008C7B21 /* thumb8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb8.jpeg; sourceTree = "<group>"; };
+		98C006F0164D464F008C7B21 /* thumb9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb9.jpeg; sourceTree = "<group>"; };
+		98C0070B164D4692008C7B21 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		98C0070E164D4964008C7B21 /* Bookcase_Universal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookcase_Universal.png; sourceTree = "<group>"; };
+		98C0070F164D4964008C7B21 /* Bookcase_Universal_TOP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookcase_Universal_TOP.png; sourceTree = "<group>"; };
+		98C00710164D4964008C7B21 /* Bookcase_Universal_TopShelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookcase_Universal_TopShelf.png; sourceTree = "<group>"; };
+		98C00711164D4964008C7B21 /* Bookcase_Universal_toptall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookcase_Universal_toptall.png; sourceTree = "<group>"; };
+		98C00712164D4964008C7B21 /* Bookcase_Universal_white_withBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bookcase_Universal_white_withBG.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98C0069D164D3DEB008C7B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C0070C164D4693008C7B21 /* QuartzCore.framework in Frameworks */,
+				98C006CB164D3EC4008C7B21 /* IG.framework in Frameworks */,
+				98C006A5164D3DEB008C7B21 /* UIKit.framework in Frameworks */,
+				98C006A7164D3DEB008C7B21 /* Foundation.framework in Frameworks */,
+				98C006A9164D3DEB008C7B21 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98C00695164D3DEB008C7B21 = {
+			isa = PBXGroup;
+			children = (
+				98C006AA164D3DEB008C7B21 /* Bookshelf */,
+				98C006A3164D3DEB008C7B21 /* Frameworks */,
+				98C006A1164D3DEB008C7B21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98C006A1164D3DEB008C7B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98C006A0164D3DEB008C7B21 /* Bookshelf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98C006A3164D3DEB008C7B21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98C0070B164D4692008C7B21 /* QuartzCore.framework */,
+				98C006CA164D3EC4008C7B21 /* IG.framework */,
+				98C006A4164D3DEB008C7B21 /* UIKit.framework */,
+				98C006A6164D3DEB008C7B21 /* Foundation.framework */,
+				98C006A8164D3DEB008C7B21 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98C006AA164D3DEB008C7B21 /* Bookshelf */ = {
+			isa = PBXGroup;
+			children = (
+				98C006B3164D3DEB008C7B21 /* AppDelegate.h */,
+				98C006B4164D3DEB008C7B21 /* AppDelegate.m */,
+				98C006BC164D3DEB008C7B21 /* ViewController.h */,
+				98C006BD164D3DEB008C7B21 /* ViewController.m */,
+				98C006BF164D3DEB008C7B21 /* ViewController_iPhone.xib */,
+				98C006C2164D3DEB008C7B21 /* ViewController_iPad.xib */,
+				98C006AB164D3DEB008C7B21 /* Supporting Files */,
+			);
+			path = Bookshelf;
+			sourceTree = "<group>";
+		};
+		98C006AB164D3DEB008C7B21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98C0070D164D4964008C7B21 /* Shelving */,
+				98C006D6164D464F008C7B21 /* Thumbnails */,
+				98C006AC164D3DEB008C7B21 /* Bookshelf-Info.plist */,
+				98C006AD164D3DEB008C7B21 /* InfoPlist.strings */,
+				98C006B0164D3DEB008C7B21 /* main.m */,
+				98C006B2164D3DEB008C7B21 /* Bookshelf-Prefix.pch */,
+				98C006B6164D3DEB008C7B21 /* Default.png */,
+				98C006B8164D3DEB008C7B21 /* Default@2x.png */,
+				98C006BA164D3DEB008C7B21 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98C006D6164D464F008C7B21 /* Thumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				98C006D7164D464F008C7B21 /* thumb1.jpeg */,
+				98C006D8164D464F008C7B21 /* thumb10.jpeg */,
+				98C006D9164D464F008C7B21 /* thumb11.jpeg */,
+				98C006DA164D464F008C7B21 /* thumb12.jpeg */,
+				98C006DB164D464F008C7B21 /* thumb13.jpeg */,
+				98C006DC164D464F008C7B21 /* thumb14.jpeg */,
+				98C006DD164D464F008C7B21 /* thumb15.jpeg */,
+				98C006DE164D464F008C7B21 /* thumb16.jpeg */,
+				98C006DF164D464F008C7B21 /* thumb17.jpeg */,
+				98C006E0164D464F008C7B21 /* thumb18.jpeg */,
+				98C006E1164D464F008C7B21 /* thumb19.jpeg */,
+				98C006E2164D464F008C7B21 /* thumb2.jpeg */,
+				98C006E3164D464F008C7B21 /* thumb20.jpeg */,
+				98C006E4164D464F008C7B21 /* thumb21.jpeg */,
+				98C006E5164D464F008C7B21 /* thumb22.jpeg */,
+				98C006E6164D464F008C7B21 /* thumb23.jpeg */,
+				98C006E7164D464F008C7B21 /* thumb24.jpeg */,
+				98C006E8164D464F008C7B21 /* thumb25.jpeg */,
+				98C006E9164D464F008C7B21 /* thumb26.jpeg */,
+				98C006EA164D464F008C7B21 /* thumb3.jpeg */,
+				98C006EB164D464F008C7B21 /* thumb4.jpeg */,
+				98C006EC164D464F008C7B21 /* thumb5.jpeg */,
+				98C006ED164D464F008C7B21 /* thumb6.jpeg */,
+				98C006EE164D464F008C7B21 /* thumb7.jpeg */,
+				98C006EF164D464F008C7B21 /* thumb8.jpeg */,
+				98C006F0164D464F008C7B21 /* thumb9.jpeg */,
+			);
+			path = Thumbnails;
+			sourceTree = "<group>";
+		};
+		98C0070D164D4964008C7B21 /* Shelving */ = {
+			isa = PBXGroup;
+			children = (
+				98C0070E164D4964008C7B21 /* Bookcase_Universal.png */,
+				98C0070F164D4964008C7B21 /* Bookcase_Universal_TOP.png */,
+				98C00710164D4964008C7B21 /* Bookcase_Universal_TopShelf.png */,
+				98C00711164D4964008C7B21 /* Bookcase_Universal_toptall.png */,
+				98C00712164D4964008C7B21 /* Bookcase_Universal_white_withBG.png */,
+			);
+			path = Shelving;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98C0069F164D3DEB008C7B21 /* Bookshelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C006C7164D3DEB008C7B21 /* Build configuration list for PBXNativeTarget "Bookshelf" */;
+			buildPhases = (
+				98C0069C164D3DEB008C7B21 /* Sources */,
+				98C0069D164D3DEB008C7B21 /* Frameworks */,
+				98C0069E164D3DEB008C7B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bookshelf;
+			productName = Bookshelf;
+			productReference = 98C006A0164D3DEB008C7B21 /* Bookshelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98C00697164D3DEB008C7B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = com.infragistics;
+			};
+			buildConfigurationList = 98C0069A164D3DEB008C7B21 /* Build configuration list for PBXProject "Bookshelf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98C00695164D3DEB008C7B21;
+			productRefGroup = 98C006A1164D3DEB008C7B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98C0069F164D3DEB008C7B21 /* Bookshelf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98C0069E164D3DEB008C7B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C006AF164D3DEB008C7B21 /* InfoPlist.strings in Resources */,
+				98C006B7164D3DEB008C7B21 /* Default.png in Resources */,
+				98C006B9164D3DEB008C7B21 /* Default@2x.png in Resources */,
+				98C006BB164D3DEB008C7B21 /* Default-568h@2x.png in Resources */,
+				98C006C1164D3DEB008C7B21 /* ViewController_iPhone.xib in Resources */,
+				98C006C4164D3DEB008C7B21 /* ViewController_iPad.xib in Resources */,
+				98C006F1164D464F008C7B21 /* thumb1.jpeg in Resources */,
+				98C006F2164D464F008C7B21 /* thumb10.jpeg in Resources */,
+				98C006F3164D464F008C7B21 /* thumb11.jpeg in Resources */,
+				98C006F4164D464F008C7B21 /* thumb12.jpeg in Resources */,
+				98C006F5164D464F008C7B21 /* thumb13.jpeg in Resources */,
+				98C006F6164D464F008C7B21 /* thumb14.jpeg in Resources */,
+				98C006F7164D464F008C7B21 /* thumb15.jpeg in Resources */,
+				98C006F8164D464F008C7B21 /* thumb16.jpeg in Resources */,
+				98C006F9164D464F008C7B21 /* thumb17.jpeg in Resources */,
+				98C006FA164D464F008C7B21 /* thumb18.jpeg in Resources */,
+				98C006FB164D464F008C7B21 /* thumb19.jpeg in Resources */,
+				98C006FC164D464F008C7B21 /* thumb2.jpeg in Resources */,
+				98C006FD164D464F008C7B21 /* thumb20.jpeg in Resources */,
+				98C006FE164D464F008C7B21 /* thumb21.jpeg in Resources */,
+				98C006FF164D464F008C7B21 /* thumb22.jpeg in Resources */,
+				98C00700164D464F008C7B21 /* thumb23.jpeg in Resources */,
+				98C00701164D464F008C7B21 /* thumb24.jpeg in Resources */,
+				98C00702164D464F008C7B21 /* thumb25.jpeg in Resources */,
+				98C00703164D464F008C7B21 /* thumb26.jpeg in Resources */,
+				98C00704164D464F008C7B21 /* thumb3.jpeg in Resources */,
+				98C00705164D464F008C7B21 /* thumb4.jpeg in Resources */,
+				98C00706164D464F008C7B21 /* thumb5.jpeg in Resources */,
+				98C00707164D464F008C7B21 /* thumb6.jpeg in Resources */,
+				98C00708164D464F008C7B21 /* thumb7.jpeg in Resources */,
+				98C00709164D464F008C7B21 /* thumb8.jpeg in Resources */,
+				98C0070A164D464F008C7B21 /* thumb9.jpeg in Resources */,
+				98C00713164D4964008C7B21 /* Bookcase_Universal.png in Resources */,
+				98C00714164D4964008C7B21 /* Bookcase_Universal_TOP.png in Resources */,
+				98C00715164D4964008C7B21 /* Bookcase_Universal_TopShelf.png in Resources */,
+				98C00716164D4964008C7B21 /* Bookcase_Universal_toptall.png in Resources */,
+				98C00717164D4964008C7B21 /* Bookcase_Universal_white_withBG.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98C0069C164D3DEB008C7B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C006B1164D3DEB008C7B21 /* main.m in Sources */,
+				98C006B5164D3DEB008C7B21 /* AppDelegate.m in Sources */,
+				98C006BE164D3DEB008C7B21 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98C006AD164D3DEB008C7B21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C006AE164D3DEB008C7B21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98C006BF164D3DEB008C7B21 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C006C0164D3DEB008C7B21 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		98C006C2164D3DEB008C7B21 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C006C3164D3DEB008C7B21 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98C006C5164D3DEB008C7B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98C006C6164D3DEB008C7B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98C006C8164D3DEB008C7B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookshelf/Bookshelf-Prefix.pch";
+				INFOPLIST_FILE = "Bookshelf/Bookshelf-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sundayliu.bookshelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98C006C9164D3DEB008C7B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookshelf/Bookshelf-Prefix.pch";
+				INFOPLIST_FILE = "Bookshelf/Bookshelf-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sundayliu.bookshelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98C0069A164D3DEB008C7B21 /* Build configuration list for PBXProject "Bookshelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C006C5164D3DEB008C7B21 /* Debug */,
+				98C006C6164D3DEB008C7B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98C006C7164D3DEB008C7B21 /* Build configuration list for PBXNativeTarget "Bookshelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C006C8164D3DEB008C7B21 /* Debug */,
+				98C006C9164D3DEB008C7B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98C00697164D3DEB008C7B21 /* Project object */;
+}
